@@ -17,8 +17,10 @@ font pango:MesloLGM Nerd Font 8
 
 # Executions on i3 startup
 exec_always --no-startup-id setxkbmap gb
+
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id sh /home/archling/.config/polybar/launch_polybar.sh
+
 exec_always --no-startup-id nitrogen --restore
 
 # Dual monitor setup
@@ -195,5 +197,5 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Configure gaps inbetween windows
+# Configure gaps inbetween windows and screen borders
 gaps inner 10px
