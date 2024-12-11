@@ -194,3 +194,6 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+# Configure gaps inbetween windows
+gaps inner 10px
