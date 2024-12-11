@@ -114,4 +114,6 @@ alias grep='grep --color=auto'
 alias pac='sudo pacman'
 alias md='mkdir'
 
+alias lock='i3lock -i /usr/share/backgrounds/user/archbtw.png --beep -t'
+
 alias update-wallpaper='sudo mv ~/.backgrounds/* /usr/share/backgrounds/user/'

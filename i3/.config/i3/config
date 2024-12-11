@@ -138,7 +138,7 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
-set $ws10 "10"exec_always "i3-nagbar -t warning -m 'You have 2 monitors connected. Are you at your desk? This will load your 'desk' screen layout.' -B 'Yes' 'sh /home/dan/.screenlayout/desk.sh'"
+set $ws10 "10"exec_always "i3-nagbar -t warning -m 'You have 2 monitors connected. Are you at your desk? This will load your 'desk' screen layout.' -B 'Yes' 'sh /home/dan/.config/i3/monitor_setup.sh'"
 
 
 
