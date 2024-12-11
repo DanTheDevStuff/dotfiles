@@ -197,5 +197,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# User keybinds
+bindsym $mod+Shift+f exec --no-startup-id firefox
+
 # Configure gaps inbetween windows and screen borders
 gaps inner 10px
