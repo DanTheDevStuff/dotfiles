@@ -71,7 +71,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-#  git 
+  git 
   archlinux
   zsh-syntax-highlighting
   zsh-autosuggestions
@@ -87,11 +87,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -114,6 +114,6 @@ alias grep='grep --color=auto'
 alias pac='sudo pacman'
 alias md='mkdir'
 
-alias lock='i3lock -i /usr/share/backgrounds/user/archbtw.png --beep -t'
+alias lock='i3lock -c cba6f7'
 
 alias update-wallpaper='sudo mv ~/.backgrounds/* /usr/share/backgrounds/user/'
