@@ -20,10 +20,16 @@ return {
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
       local lspconfig = require("lspconfig") 
+      
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
+      
       lspconfig.jsonls.setup({
+        capabilities = capabilities
+      })
+      
+      lspconfig.ast_grep.setup({
         capabilities = capabilities
       })
 
