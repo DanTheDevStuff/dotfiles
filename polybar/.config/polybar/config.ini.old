@@ -1,0 +1,5 @@
+[bar/i3-bar]
+
+
+# Set bar at bottom of the screen
+bottom = true
