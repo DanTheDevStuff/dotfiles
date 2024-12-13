@@ -69,7 +69,7 @@ bindsym $mod+Return exec kitty
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
+# start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
@@ -203,6 +203,7 @@ bindsym $mod+r mode "resize"
 # User keybinds
 bindsym $mod+Shift+f exec --no-startup-id firefox
 bindsym $mod+Shift+p exec --no-startup-id poweroff
+bindsym $mod+Shift+v exec --no-startup-id lock
 
 # Configure gaps inbetween windows and screen borders
 gaps inner 10px
