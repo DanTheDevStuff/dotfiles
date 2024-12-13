@@ -203,7 +203,7 @@ bindsym $mod+r mode "resize"
 # User keybinds
 bindsym $mod+Shift+f exec --no-startup-id firefox
 bindsym $mod+Shift+p exec --no-startup-id poweroff
-bindsym $mod+Shift+v exec --no-startup-id lock
+bindsym $mod+Shift+v exec --no-startup-id "sh ~/.config/i3/lock.sh"
 
 # Configure gaps inbetween windows and screen borders
 gaps inner 10px
