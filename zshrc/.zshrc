@@ -114,6 +114,6 @@ alias grep='grep --color=auto'
 alias pac='sudo pacman'
 alias md='mkdir'
 
-alias lock='i3lock -c cba6f7'
+alias lock='sh ~/.config/i3/lock.sh'
 
 alias update-wallpaper='sudo mv ~/.backgrounds/* /usr/share/backgrounds/user/'
