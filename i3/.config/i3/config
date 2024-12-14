@@ -27,7 +27,7 @@ exec_always --no-startup-id killall picom
 exec_always --no-startup-id "picom &"
 
 # Dual monitor setup
-bindsym $mod+Shift+t exec "i3-nagbar -t warning -m 'You pressed the monitor shortcut. Would you like to load your desk monitor setup?' -B 'Yes' 'sh /home/archling/.screenlayout/desk.sh && pkill i3-nagbar'"
+bindsym $mod+Shift+t exec "i3-nagbar -t warning -m 'You pressed the monitor shortcut. Would you like to load your desk monitor setup?' -B 'Yes' 'sh /home/dan/.config/i3/monitor_setup.sh && pkill i3-nagbar'"
 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left

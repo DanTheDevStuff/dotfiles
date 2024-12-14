@@ -116,4 +116,7 @@ alias md='mkdir'
 
 alias lock='sh ~/.config/i3/lock.sh'
 
-alias update-wallpaper='sudo mv ~/.backgrounds/* /usr/share/backgrounds/user/'
+alias update-wallpaper='sudo mv ~/.bg/* /usr/share/backgrounds/'
+
+export PATH="$PATH:/home/dan/.dotnet/tools"
+

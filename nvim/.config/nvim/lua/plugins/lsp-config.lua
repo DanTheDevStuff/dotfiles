@@ -25,11 +25,11 @@ return {
         capabilities = capabilities
       })
       
-      lspconfig.jsonls.setup({
-        capabilities = capabilities
-      })
+
+
+
       
-      lspconfig.ast_grep.setup({
+      lspconfig.csharp_ls.setup({
         capabilities = capabilities
       })
 
