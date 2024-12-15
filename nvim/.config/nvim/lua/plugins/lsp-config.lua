@@ -29,7 +29,7 @@ return {
         capabilities = capabilities
       })
 
-      lspconfig.ast_grep.setup({
+      lspconfig.html.setup({
         capabilities = capabilities
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
